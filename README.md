@@ -15,15 +15,15 @@ function randomlink(){
 
 ### JavaScript Random Integers
 
-> `Math.random()` returns a random number between 0 (inclusive), and 1 (exclusive).
->
-> `Math.random()` always returns a number lower than 1.`
->
-> `Math.random()` used with `Math.floor()` multiplied with `randomlinks.length()` can be used to return random integers. 
->
-> Using those as indexes of the `randomlinks[]` can be used to point to that link stored in that index of the Array.
->
-> The `button` has an `onclick` event of `randomlink()` function, which when clicked by the user takes him/her to that link generated randomly.
+`Math.random()` returns a random number between 0 (inclusive), and 1 (exclusive).
+
+`Math.random()` always returns a number lower than 1.`
+
+`Math.random()` used with `Math.floor()` multiplied with `randomlinks.length()` can be used to return random integers. 
+
+Using those as indexes of the `randomlinks[]` can be used to point to that link stored in that index of the Array.
+
+The `button` has an `onclick` event of `randomlink()` function, which when clicked by the user takes him/her to that link generated randomly.
 
 
 
